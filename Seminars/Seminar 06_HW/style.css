@@ -1,0 +1,319 @@
+/* lato-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* lato-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.desktop_index {
+    width: 1600px;
+    height: 2925px;
+    margin: auto;
+    background-color: white;
+    justify-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.header {
+    width: 1600px;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-group01 img {
+    margin-left: 33px;
+}
+
+.header-group02 {
+    margin-left: 859px;
+}
+
+.header-group02 img {
+    margin-right: 33px;
+}
+
+.section_01 {
+    width: 1600px;
+    height: 764px;
+    background-color: rgb(241,228,230);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section_01-textBox {
+    width: 421px;
+    height: 93.1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section_01-textBox-stripe {
+    margin-right: 16px;
+}
+
+.section_01-boldText {
+    font-family: 'Lato';
+    font-size: 48px;
+    font-style:normal;
+    font-weight: 900;
+}
+
+.section_01-normal {
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.section_01-redText {
+    color: rgb(241, 109, 127);
+    /*-webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;*/
+}
+
+.section_02-offer {
+    max-width: 1140px;
+    height: 500px;
+    margin: 65px auto 96px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.section_02-img1 {
+    width: 360px;
+    height: 260px;
+    background: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7) ), url(./img/img02._1-for\ women.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_02-img2 {
+    width: 360px;
+    height: 260px;
+    background: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7) ), url(./img/img03._Rectangle\ 30.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_02-img3 {
+    width: 360px;
+    height: 260px;
+    background: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7) ), url(./img/img04._3-for\ kids.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_02-img4 {
+    width: 1140px;
+    height: 180px;
+    background: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7) ), url(./img/img05._4-ACCESORIES.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #FFFFFF;
+}
+
+.text2 {
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #F16D7F;
+}
+
+
+.section_03-products {
+    width: 1140px;
+    height: 1395px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+
+.section_03-top {
+    width: 1140px;
+    height: 107px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section_03-top-text1 {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.section_03-top-text2 {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: rgb(159, 159, 159);
+}
+
+.section_03-middle {
+    max-width: 1140px;
+    height: 1181px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.section_03-middle-item {
+    width: 360px;
+    height: 581px;
+    /*border: 1px solid black;*/
+    background-color: #F8F8F8;
+}
+
+.section_03-middle-item-header {
+    font-family: 'Lato';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    margin: 24px 0px 16px 16px;
+}
+
+.section_03-middle-item-text {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight:100;
+    color: #5D5D5D;
+    margin: 16px 29px 16px 16px;
+}
+
+.section_03-middle-item-price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: #F16D7F;
+    margin: 16px 0px 0px 16px;
+}
+
+.middle_img2box {
+    background-color: #F7E4E2;
+    width: 360px;
+    height: 420px;
+}
+
+.middle_img2 {
+    margin-left: 108px;
+    margin-top: 10px;
+}
+
+.section_03-bttm {
+    width: 1140px;
+    height: 96px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section_03-bttm-textBox {
+    width: 212px;
+    height: 48px;
+    border: 1px solid #FF6A6A;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.section_03-bttm-text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(242, 99, 118);
+    margin: auto;
+}
